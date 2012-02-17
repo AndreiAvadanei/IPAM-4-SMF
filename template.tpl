@@ -4,14 +4,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="index.css">
 <meta name="description" content="Post reply">
-<title>IP Adress Mask for SMF <?php echo $title; ?></title>
+<title>IP Address Mask for SMF <?php echo $title; ?></title>
 <meta name="robots" content="noindex">
-</head> 
+</head>
 <body>
 <div id="wrapper" style="width: 700px;">
   <div id="header">
     <div id="logo">
-      <h1 align="center">IP Adress Mask for SMF</h1>
+      <h1 align="center">IP Address Mask for SMF</h1>
     </div>
   </div>
   <div id="bodyarea">
@@ -32,7 +32,7 @@
         <span class="lowerframe"> <span> </span> </span> </div>
       <br class="clear">
     </form>
-  </div> 
+  </div>
   <div id="footerarea">Copyright &copy; <a target="_blank" href="http://insecurity.ro/forum">InSecurity Romania</a> 2006 - 2012</div>
 </div>
 </body>

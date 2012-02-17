@@ -13,6 +13,7 @@
   * installer, backup patched files and remote patch options
   * check if SMF is already patched
   * support for dynamic IP adresses (full support for IPv4; for example, 133.37.*.* may show (almost) random IPs based on several internal properties)
+  * tested on SMF 2.x
 
 ##Installation
   * upload all files in the root of your server

@@ -20,7 +20,7 @@
   * run IPAM 4 SMFs index.php in your browser
 
 ##TODO 
-  * update an existing patch
+  * support for updating an existing patch
   * full support for IPv6
   
 ##License

@@ -3,9 +3,10 @@
 /**
   * Title: ISR IP Adress Mask for SMF
   * Version : 1.3.3.7
-  * Description: 
+  * Description: IP Adress Mask for SMF it's an semi-automatic patching tool for Simple Machine Forum which masks all real IPs of users that are belonging to some groups from a SMF drived-by website. You can include or exclude an unlimited number of groups for being protected by IPAM 4 SMF. Even more, you can choose even the mask (it could be a dynamic set) that will patch users IPs. IPAM 4 SMF have options like installation guider, automatic backup for modified files, patch remover. 
   * Authors: Full installer by Andrei Avădănei & patch by kNight
   * URL : http://insecurity.ro
+  * License: GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007 
   *
   **/
   

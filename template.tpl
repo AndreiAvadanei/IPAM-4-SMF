@@ -6,7 +6,7 @@
 <meta name="description" content="Post reply">
 <title>IP Adress Mask for SMF <?php echo $title; ?></title>
 <meta name="robots" content="noindex">
-</head>
+</head> 
 <body>
 <div id="wrapper" style="width: 700px;">
   <div id="header">

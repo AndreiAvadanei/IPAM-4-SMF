@@ -1,9 +1,9 @@
 <?php
 
 /**
-  * Title: ISR IP Adress Mask for SMF 
+  * Title: ISR IP Address Mask for SMF 
   * Version : 1.3.3.7
-  * Description: IP Adress Mask for SMF it's an semi-automatic patching tool for Simple Machine Forum which masks all real IPs of users that are belonging to some groups from a SMF drived-by website. You can include or exclude an unlimited number of groups for being protected by IPAM 4 SMF. Even more, you can choose even the mask (it could be a dynamic set) that will patch users IPs. IPAM 4 SMF have options like installation guider, automatic backup for modified files, patch remover. 
+  * Description: IP Address Mask for SMF it's an semi-automatic patching tool for Simple Machine Forum which masks all real IPs of users that are belonging to some groups from a SMF drived-by website. You can include or exclude an unlimited number of groups for being protected by IPAM 4 SMF. Even more, you can choose even the mask (it could be a dynamic set) that will patch users IPs. IPAM 4 SMF have options like installation guider, automatic backup for modified files, patch remover. 
   * Authors: Full installer by Andrei Avădănei & patch by kNight
   * URL : http://insecurity.ro
   * License: GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007 
@@ -47,16 +47,16 @@ class IPAM_SMF {
 			{				
 				if(!is_dir($_POST['root'])) return $this->error(2);
 				if($this->isPatched($_POST['root']))
-					$this->render(1, '', '', 'none', '', '', '', 'Status: <font color="#00FF00">IP Adress Mask for SMF allready installed. <a href="?id=4&root='.urlencode($_POST['root']).'">Remote patch!</a></font>');					 
+					$this->render(1, '', '', 'none', '', '', '', 'Status: <font color="#00FF00">IP Address Mask for SMF allready installed. <a href="?id=4&root='.urlencode($_POST['root']).'">Remote patch!</a></font>');					 
 				else
-					$this->render(1, '', '', 'none', '', '', '', 'Status: <font color="#FF0000">IP Adress Mask for SMF is not installed. <a href="?id=2&root='.urlencode($_POST['root']).'">Install now!</a></font>'); 
+					$this->render(1, '', '', 'none', '', '', '', 'Status: <font color="#FF0000">IP Address Mask for SMF is not installed. <a href="?id=2&root='.urlencode($_POST['root']).'">Install now!</a></font>'); 
 				return TRUE; 
 			}
 			return $this->error(1);
 		  break;
 		  case 2:
 		  	if($this->isPatched($_POST['root']))
-				return $this->render(1, '', '', 'none', '', '', '', 'Status: <font color="#00FF00">IP Adress Mask for SMF already installed. <a href="?id=4&root='.urlencode($_POST['root']).'">Remote patch!</a></font>');		
+				return $this->render(1, '', '', 'none', '', '', '', 'Status: <font color="#00FF00">IP Address Mask for SMF already installed. <a href="?id=4&root='.urlencode($_POST['root']).'">Remote patch!</a></font>');		
 		  	
 			if(isset($_POST['root'], $_POST['groups'],$_POST['type'],$_POST['ip']))
 			{
@@ -84,7 +84,7 @@ class IPAM_SMF {
 		  break;
 		  case 4:
 		  	if(!$this->isPatched($_GET['root']))
-				return $this->render(1, '', '', 'none', '', '', '', 'Status: <font color="#FF0000">IP Adress Mask for SMF is not installed. <a href="?id=2&root='.urlencode($_GET['root']).'">Install now!</a></font>');
+				return $this->render(1, '', '', 'none', '', '', '', 'Status: <font color="#FF0000">IP Address Mask for SMF is not installed. <a href="?id=2&root='.urlencode($_GET['root']).'">Install now!</a></font>');
 			
 			if(isset($_POST['submit']))
 			{
@@ -300,7 +300,7 @@ class IPAM_SMF {
 //replaces  
 $settings_code = '
 
-/*** IPAM_SMF Patch - IP Adress Mask for SMF injection - http://insecurity.ro ***/
+/*** IPAM_SMF Patch - IP Address Mask for SMF injection - http://insecurity.ro ***/
 
 $leetIP       = "###mask###";          # The mask
 $leetIPType   = "###type###";          # If value is  "include", the script will change IPs for users that are in $leetIPGroups, else if is "exclude" will patch IP only for users who are not in $leetIPGroups.

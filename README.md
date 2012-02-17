@@ -1,11 +1,11 @@
-##IP Adress Mask for SMF
+##IP Address Mask for SMF
 * __Version__ : v1.3.3.7
 * __Websites__ : [InSecurity.ro](http://insecurity.ro/forum), [WorldIT.info](http://www.worldit.info)
 * __Authors__ : Full installer by Andrei Avadanei (andrei [at] worldit [dot] info) & patch by kNight (intre0si1 [at] gmail [dot] com)
 
 ##Description
 
-> IP Adress Mask for SMF it's an semi-automatic patching tool for Simple Machine Forum which masks all real IPs of users that are belonging to some groups from a SMF drived-by website. You can include or exclude an unlimited number of groups for being protected by IPAM 4 SMF. Even more, you can choose even the mask (it could be a dynamic set) that will patch users IPs. IPAM 4 SMF have options like installation guider, automatic backup for modified files, patch remover. 
+> IP Address Mask for SMF it's an semi-automatic patching tool for Simple Machine Forum which masks all real IPs of users that are belonging to some groups from a SMF drived-by website. You can include or exclude an unlimited number of groups for being protected by IPAM 4 SMF. Even more, you can choose even the mask (it could be a dynamic set) that will patch users IPs. IPAM 4 SMF have options like installation guider, automatic backup for modified files, patch remover. 
 
 ##Features
 ### v1.3.3.7 

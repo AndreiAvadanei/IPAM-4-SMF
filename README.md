@@ -19,6 +19,9 @@
   * ensure that you have write permissions for /backup folder
   * run IPAM 4 SMFs index.php in your browser
 
+##Previews
+![alt text](https://github.com/AndreiAvadanei/IPAM-4-SMF/blob/master/previews/1.png "")
+
 ##TODO 
   * support for updating an existing patch
   * full support for IPv6

@@ -1,4 +1,4 @@
-#IP Adress Mask for SMF
+ #IP Adress Mask for SMF
 * __Version__ : v1.3.3.7
 * __Websites__ : [InSecurity.ro](http://insecurity.ro/forum), [WorldIT.info](http://www.worldit.info)
 * __Authors__ : Full installer by Andrei Avadanei (andrei [at] worldit [dot] info) & patch by kNight (intre0si1 [at] gmail [dot] com)
@@ -20,8 +20,11 @@
   * run IPAM 4 SMFs index.php in your browser
 
 ##Previews
-![alt text](https://github.com/AndreiAvadanei/IPAM-4-SMF/blob/master/previews/1.png "")
-
+![alt text](https://github.com/AndreiAvadanei/IPAM-4-SMF/raw/master/previews/1.png "")
+![alt text](https://github.com/AndreiAvadanei/IPAM-4-SMF/raw/master/previews/2.png "")
+![alt text](https://github.com/AndreiAvadanei/IPAM-4-SMF/raw/master/previews/3.png "")
+![alt text](https://github.com/AndreiAvadanei/IPAM-4-SMF/raw/master/previews/4.png "")
+![alt text](https://github.com/AndreiAvadanei/IPAM-4-SMF/raw/master/previews/5.png "")
 ##TODO 
   * support for updating an existing patch
   * full support for IPv6

@@ -12,7 +12,7 @@
   * full support for IPv4 and partial support for IPv6
   * installer, backup patched files and remote patch options
   * check if SMF is already patched
-  * support for dynamic IP adresses (full support for IPv4; for example, 133.37.*.* may show (almost) random IPs based on several internal properties)
+  * support for dynamic IP addresses (full support for IPv4; for example, 133.37.*.* may show (almost) random IPs based on several internal properties)
   * tested on SMF 2.x
 
 ##Installation

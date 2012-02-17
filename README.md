@@ -28,6 +28,7 @@
 ##TODO 
   * support for updating an existing patch
   * full support for IPv6
+  * remove IP from $_SERVER['REMOTE_ADDR']
   
 ##License
 GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007
